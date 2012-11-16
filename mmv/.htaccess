@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+RewriteRule ^.*c-([0-9-a-z]+)\/$ index.php?accion=$1 [S]
+
+RewriteRule ^.*c-([0-9-a-z]+)/*/v-([0-9]+)\/$ index.php?accion=$1&valor=$2 [L]

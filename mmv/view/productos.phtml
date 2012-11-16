@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" href="<?php echo Conectar::ruta(); ?>script/css/estilos.css" rel="stylesheet" />
+        <script language="javascript" type="text/javascript" src="<?php echo Conectar::ruta();?>script/js/funciones.js"></script>
+        
+    </head>
+    <body>
+
+        
+        <?php require_once("menu.phtml"); ?>
+        
+        <hr />
+        Productos
+        <ul>
+            <?php
+            for ($i=0; $i<sizeof($datos); $i++ )
+            {
+            ?>
+            <li><a href="<?php echo Conectar::ruta(); ?>c-verproductos/v-<?php echo $datos[$i]["id_producto"]; ?>/"><?php echo $datos[$i]["producto"]; ?></a></li>
+            <?php
+            }
+            ?>
+        </ul>
+        
+    </body>
+</html>
