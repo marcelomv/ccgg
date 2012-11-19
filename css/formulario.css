@@ -1,0 +1,104 @@
+#cuerpo{
+    width: 1024px;
+    float: left;
+    margin: 0 auto 0 auto;   
+}
+
+#conte_login{
+    width: 35%;
+    margin: 0 auto 0 auto;
+    /*--------*/
+    width: 350px;
+    height: 192px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -175px;
+    margin-top: -96px;
+}
+
+#contenedor{
+    width: 70%;
+    margin: 50px auto 0 auto;    
+}
+
+    div .linea{
+        float: left;
+        width: 100%;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    div .linea:hover{
+        background-color: #D5D2D2;
+    }
+    
+    .etiqueta{
+        float: left;
+        width: 25%;
+        color: #0B2161;
+        font-family: 'Bree Serif', serif;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    fieldset{
+        background-color: #ECEAEA;
+        margin-bottom: 4px;
+        border: 2px solid;
+    }
+
+        fieldset legend{
+            color: white;
+            background-color: black;
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+        }
+        
+        #f1{
+            border-radius: 8px 8px 0px 0px;
+        }
+        
+        #f2{
+            border-radius: 0px 0px 8px 8px;
+        }
+        
+        input, select, textarea{
+            float: left;
+            padding: 3px;
+            font-family: 'Bree Serif', serif;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+            .largo{
+                width: 70%;
+            }
+            
+            .medio{
+                width: 40%;
+            }
+        
+        input:focus{
+            background-color: green;         /*#0040FF;*/
+            color: #ffffff;
+            border: 2px solid black;
+        }
+        
+        input:hover, select:hover, textarea:hover{
+            background-color: green;               /*#0040FF;*/
+            color: #ffffff;
+		}
+		
+        #btn_continuar{
+            float: left;
+            margin-left: 20%;
+        }
+
+        #btn_salir{
+            float: right;
+            margin-right: 20%;
+        }        
+
+		.boton{
+            text-transform: capitalize;			
+		}

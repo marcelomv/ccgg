@@ -1,0 +1,31 @@
+body{
+	margin: 0 auto;
+}
+
+	table{
+		border-collapse: collapse;
+		margin: 30px auto;
+	}
+
+	table, th, td{
+		border: 1px solid green;
+	}
+	
+	td, th{
+		padding-left: 4px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-right: 3px;
+		text-transform: capitalize;
+	}
+	
+	th{
+		background-color: green;
+		color: white;
+	}
+	
+	tr:hover{
+		background-color: gray;
+		color: white;
+	}
+	

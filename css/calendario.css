@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*Calendario de uso libre*/
+/*desarrollado por Johan Calderon*/
+/*nahhoj@hotmail.com - johancalderon@micro2c.com*/
+/*www.micro2c.com*/
+/*Bogota - Colombia*/
+/*25-10-2011*/
+
+.calendario .link_calendario,.calendario .lastmes,.calendario .nextmes{
+	cursor:pointer;
+}
+
+.calendario .hoy{	
+        font-size: 17px;
+        color:red;
+}
+
+.calendario{
+	border-bottom-color:#000;
+	border-width:1px;
+	border-style:solid;
+	border-radius:10px;
+	padding:3px;
+	text-align:center;
+	font-size:12px;
+	background-color:#FFF;
+	float:left;
+        position:absolute;
+        z-index: 1;        
+}
+
+.calendario table tr td{
+	border-bottom-color:#000;
+	border-width:1px;
+	border-style:solid;
+	border-radius:3px;
+	background-color:#72FD6F;
+	width:18px;
+	height:18px;
+}

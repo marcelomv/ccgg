@@ -1,0 +1,62 @@
+label, input
+{
+    display: block;
+}
+
+label
+{
+    color: #0B2161;
+}
+
+input, select
+{
+    margin-bottom: 3px;
+    padding: 5px;
+}
+
+input:focus
+{
+    background-color: #0040FF;
+    color: #ffffff;
+    border: 2px solid black;
+}
+
+input:hover, select:hover
+{
+    background-color: #0040FF;
+    color: #ffffff;
+}
+
+fieldset
+{
+    background-color: #CEE3F6 ;
+    margin: 0 auto 0 auto;
+    width: 40%;
+    margin-bottom: 5px;
+    border: 2px solid;
+}
+
+#f1
+{
+    border-radius: 8px 8px 0px 0px;
+}
+
+#f2
+{
+    border-radius: 0px 0px 8px 8px;
+}
+
+fieldset legend
+{
+    color: #0489B1;
+}
+
+.largo
+{
+    width: 95%;
+}
+
+.medio
+{
+    width: 50%;
+}
